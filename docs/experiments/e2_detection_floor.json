@@ -1,0 +1,80 @@
+{
+  "experiment": "e2_detection_floor",
+  "question": "What is the smallest shift each window size can see?",
+  "detector": "ks",
+  "material_shift": 0.1,
+  "replicates": 300,
+  "cells": [
+    {
+      "detector": "ks",
+      "detection_rows": 250,
+      "minimum_detectable_shift": 0.205078,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": true,
+      "sqrt_n_invariant": 3.2426
+    },
+    {
+      "detector": "ks",
+      "detection_rows": 500,
+      "minimum_detectable_shift": 0.146484,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": true,
+      "sqrt_n_invariant": 3.2755
+    },
+    {
+      "detector": "ks",
+      "detection_rows": 1000,
+      "minimum_detectable_shift": 0.103516,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": true,
+      "sqrt_n_invariant": 3.2735
+    },
+    {
+      "detector": "ks",
+      "detection_rows": 2000,
+      "minimum_detectable_shift": 0.076172,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": false,
+      "sqrt_n_invariant": 3.4065
+    },
+    {
+      "detector": "ks",
+      "detection_rows": 5000,
+      "minimum_detectable_shift": 0.048828,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": false,
+      "sqrt_n_invariant": 3.4527
+    },
+    {
+      "detector": "ks",
+      "detection_rows": 10000,
+      "minimum_detectable_shift": 0.033203,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": false,
+      "sqrt_n_invariant": 3.3203
+    },
+    {
+      "detector": "ks",
+      "detection_rows": 20000,
+      "minimum_detectable_shift": 0.025391,
+      "target_power": 0.8,
+      "material_shift": 0.1,
+      "blind": false,
+      "sqrt_n_invariant": 3.5908
+    }
+  ],
+  "smallest_window": 250,
+  "smallest_window_floor": 0.205078,
+  "largest_window": 20000,
+  "largest_window_floor": 0.025391,
+  "blind_window_count": 3,
+  "window_count": 7,
+  "first_visible_window": 2000,
+  "invariant_spread": 1.1073829642879172
+}

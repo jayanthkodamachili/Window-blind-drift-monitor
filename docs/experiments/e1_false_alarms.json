@@ -1,0 +1,50 @@
+{
+  "experiment": "e1_false_alarms",
+  "question": "How often does a monitor alarm when nothing has drifted?",
+  "replicates": 400,
+  "alpha": 0.05,
+  "detection_rows": 2000,
+  "per_feature_ks_rate": 0.04625,
+  "per_feature_psi_rate": 0.0,
+  "cells": [
+    {
+      "n_features": 1,
+      "any_feature_alarm_rate": 0.0325,
+      "predicted_from_per_feature": 0.04625000000000001,
+      "expected_alarms": 0.04625
+    },
+    {
+      "n_features": 5,
+      "any_feature_alarm_rate": 0.2225,
+      "predicted_from_per_feature": 0.210826025085318,
+      "expected_alarms": 0.23125
+    },
+    {
+      "n_features": 10,
+      "any_feature_alarm_rate": 0.36,
+      "predicted_from_per_feature": 0.377204437317361,
+      "expected_alarms": 0.4625
+    },
+    {
+      "n_features": 20,
+      "any_feature_alarm_rate": 0.56,
+      "predicted_from_per_feature": 0.612125687102815,
+      "expected_alarms": 0.925
+    },
+    {
+      "n_features": 40,
+      "any_feature_alarm_rate": 0.875,
+      "predicted_from_per_feature": 0.8495535173945367,
+      "expected_alarms": 1.85
+    },
+    {
+      "n_features": 80,
+      "any_feature_alarm_rate": 0.9675,
+      "predicted_from_per_feature": 0.977365855871644,
+      "expected_alarms": 3.7
+    }
+  ],
+  "forty_feature_alarm_rate": 0.875,
+  "forty_expected_alarms": 1.85,
+  "max_prediction_gap": 0.052125687102814955
+}

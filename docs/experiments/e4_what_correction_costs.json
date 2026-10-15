@@ -1,0 +1,66 @@
+{
+  "experiment": "e4_what_correction_costs",
+  "question": "What does controlling the alarm rate cost in detection power?",
+  "detection_rows": 2000,
+  "alpha": 0.05,
+  "material_shift": 0.1,
+  "replicates": 300,
+  "cells": [
+    {
+      "n_features": 1,
+      "corrected_alpha": 0.05,
+      "uncorrected_any_alarm": 0.050000000000000044,
+      "corrected_any_alarm": 0.050000000000000044,
+      "floor": 0.076171875,
+      "blind": false
+    },
+    {
+      "n_features": 5,
+      "corrected_alpha": 0.01,
+      "uncorrected_any_alarm": 0.22621906250000023,
+      "corrected_any_alarm": 0.04900995010000009,
+      "floor": 0.091796875,
+      "blind": false
+    },
+    {
+      "n_features": 10,
+      "corrected_alpha": 0.005,
+      "uncorrected_any_alarm": 0.4012630607616213,
+      "corrected_any_alarm": 0.048889869534228136,
+      "floor": 0.095703125,
+      "blind": false
+    },
+    {
+      "n_features": 20,
+      "corrected_alpha": 0.0025,
+      "uncorrected_any_alarm": 0.6415140775914581,
+      "corrected_any_alarm": 0.04883012474683324,
+      "floor": 0.103515625,
+      "blind": true
+    },
+    {
+      "n_features": 40,
+      "corrected_alpha": 0.00125,
+      "uncorrected_any_alarm": 0.8714878434348969,
+      "corrected_any_alarm": 0.04880032574840909,
+      "floor": 0.111328125,
+      "blind": true
+    },
+    {
+      "n_features": 80,
+      "corrected_alpha": 0.000625,
+      "uncorrected_any_alarm": 0.9834846256149864,
+      "corrected_any_alarm": 0.04878544453863398,
+      "floor": 0.115234375,
+      "blind": true
+    }
+  ],
+  "single_feature_floor": 0.076171875,
+  "forty_feature_floor": 0.111328125,
+  "forty_floor_multiple": 1.4615384615384615,
+  "forty_uncorrected_alarm": 0.8714878434348969,
+  "forty_corrected_alarm": 0.04880032574840909,
+  "first_blind_feature_count": 20,
+  "blind_cell_count": 3,
+  "cell_count": 6
+}

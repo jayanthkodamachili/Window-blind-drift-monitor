@@ -1,0 +1,96 @@
+{
+  "paired_cells": [
+    {
+      "window_rows": 250,
+      "median_null_psi": 0.06521311838190036,
+      "share_over_investigate": 0.1825,
+      "share_over_act": 0.0
+    },
+    {
+      "window_rows": 1000,
+      "median_null_psi": 0.01820956175613065,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "window_rows": 5000,
+      "median_null_psi": 0.0031878869877016774,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "window_rows": 20000,
+      "median_null_psi": 0.0008264704367707222,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    }
+  ],
+  "worst_paired_window": 250,
+  "worst_paired_share_investigate": 0.1825,
+  "worst_paired_median": 0.06521311838190036,
+  "experiment": "e3_psi_threshold",
+  "question": "Do the fixed PSI thresholds mean the same thing at every window size?",
+  "replicates": 400,
+  "bins": 10,
+  "investigate_threshold": 0.1,
+  "act_threshold": 0.2,
+  "cells": [
+    {
+      "detection_rows": 250,
+      "median_null_psi": 0.03463531638850834,
+      "p95_null_psi": 0.06737434332786477,
+      "share_over_investigate": 0.005,
+      "share_over_act": 0.0
+    },
+    {
+      "detection_rows": 500,
+      "median_null_psi": 0.017467063485780837,
+      "p95_null_psi": 0.03507659816769427,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "detection_rows": 1000,
+      "median_null_psi": 0.008784069348233395,
+      "p95_null_psi": 0.01813500845515462,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "detection_rows": 2000,
+      "median_null_psi": 0.004188784912746438,
+      "p95_null_psi": 0.008873822803768267,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "detection_rows": 5000,
+      "median_null_psi": 0.0018597616908380679,
+      "p95_null_psi": 0.0035130447624605056,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "detection_rows": 20000,
+      "median_null_psi": 0.0005962337660067237,
+      "p95_null_psi": 0.0012335275631857239,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    },
+    {
+      "detection_rows": 100000,
+      "median_null_psi": 0.00026104945167141193,
+      "p95_null_psi": 0.0005114159286344126,
+      "share_over_investigate": 0.0,
+      "share_over_act": 0.0
+    }
+  ],
+  "smallest_window": 250,
+  "smallest_median_psi": 0.03463531638850834,
+  "smallest_share_investigate": 0.005,
+  "largest_window": 100000,
+  "largest_median_psi": 0.00026104945167141193,
+  "median_collapse_ratio": 132.67722328758038,
+  "windows_where_act_never_fires": 7,
+  "window_count": 7
+}

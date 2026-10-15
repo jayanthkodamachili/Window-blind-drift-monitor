@@ -1,0 +1,21 @@
+{
+  "note": "each command was run by tools/capture_cli.py, exit codes as returned",
+  "runs": [
+    {
+      "command": "drift-monitor --detection-rows 4000 --n-features 6 --injected-shift 0.3",
+      "exit_code": 1
+    },
+    {
+      "command": "drift-monitor --detection-rows 8000 --n-features 6 --shifted-features 0 --material-shift 0.5",
+      "exit_code": 0
+    },
+    {
+      "command": "drift-monitor --detection-rows 250 --n-features 6 --shifted-features 1 --injected-shift 0.06 --material-shift 0.06 --power-replicates 60 --seed 2",
+      "exit_code": 4
+    },
+    {
+      "command": "drift-monitor --detection-rows 100 --psi-bins 30",
+      "exit_code": 2
+    }
+  ]
+}
