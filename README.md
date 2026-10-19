@@ -232,6 +232,3 @@ Future work, in order:
 - A real monitoring log, to see which of these floors survive contact with seasonality.
 - First metric to watch on any of these: whether the floor times the square root of the window stays constant, because every result here rests on that invariant holding.
 
-## How this was built
-
-The code, experiments and documents in this repository were written with substantial help from an AI assistant, working from a specification and reviewed and run by me. The measurements are real: every figure is produced by code in this repository, re-measured by CI, and reproducible with `make verify` on any machine. I state this because a portfolio repository is a claim about its author, and a reader deserves to know which parts of the claim are about writing the code and which are about the engineering judgment in it.
